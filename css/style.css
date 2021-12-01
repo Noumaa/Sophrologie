@@ -1,3 +1,72 @@
+/*
+Couleur:
+    vert foncé nature: #4c693f
+    bleu-gris: #6a8cad
+    bleu-vert: #78cccb
+    jaune: #fefe6f
+    blanc: #ffffff
+
+    background: #f6f4ef
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700;900&display=swap');
+
 body {
-    background-color: #4c693f;
+    margin: 0;
+    padding: 0;
+
+    background-color: #f6f4ef;
+    font-family: 'Raleway', sans-serif;
+}
+
+#carousel {
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    height: 400px;
+    width: auto;
+    object-fit: cover;
+}
+
+.carousel-item h3 {
+    text-shadow: 0 0 10px gray;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.inner-wrapper {
+    margin-top: 75px;
+}
+
+.subtitle {
+    color: #4c693f;
+}
+
+#why {
+    background-color: #ece8de;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+#top {
+    transition: filter 0.5s ease-in;
+    filter: invert(57%) sepia(8%) saturate(1530%) hue-rotate(169deg) brightness(91%) contrast(93%); /*#6a8cad*/
+
+    opacity: 0;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+  
+#top:hover {
+    transition: filter 0.5s ease-in-out;
+    filter: invert(0%) sepia(0%) saturate(7469%) hue-rotate(140deg) brightness(93%) contrast(101%);
 }
