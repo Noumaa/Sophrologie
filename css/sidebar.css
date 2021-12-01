@@ -6851,6 +6851,7 @@ textarea.form-control-lg {
 
 .border-end {
   border-right: 1px solid #dee2e6 !important;
+
 }
 
 .border-end-0 {
@@ -11282,6 +11283,7 @@ textarea.form-control-lg {
   min-height: 100vh;
   margin-left: -15rem;
   transition: margin 0.25s ease-out;
+  
 }
 
 #sidebar-wrapper .sidebar-heading {
