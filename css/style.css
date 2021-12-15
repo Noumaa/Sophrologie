@@ -18,6 +18,7 @@ body {
     background-color: #f6f4ef;
     font-family: 'Raleway', sans-serif;
 }
+   
 
 #carousel {
     margin: 0 auto;
@@ -69,4 +70,7 @@ body {
 #top:hover {
     transition: filter 0.5s ease-in-out;
     filter: invert(0%) sepia(0%) saturate(7469%) hue-rotate(140deg) brightness(93%) contrast(101%);
+}
+.minititre {
+    color: #6a8cad;
 }
